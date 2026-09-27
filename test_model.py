@@ -1,21 +1,16 @@
 """
 Unit tests for the FinTech KYC fraud detection pipeline.
 
-NOTE: This test file assumes the pipeline script is saved as `model.py`
-in the repo root. If your file has a different name (e.g. `train.py`,
-`fraud_pipeline.py`), update the import line below to match:
-
-    from model import FintechFeatureExtractor, generate_indian_kyc_dataset
-
-The script's training/demo code lives inside `if __name__ == "__main__":`,
-so importing it here does NOT re-run training, printing, or the webhook
-simulation — only the class and function definitions are loaded.
+This test file imports from `main.py` in the repo root. The script's
+training/demo code lives inside `if __name__ == "__main__":`, so importing
+it here does NOT re-run training, printing, or the webhook simulation —
+only the class and function definitions are loaded.
 """
 
 import pandas as pd
 import pytest
 
-from model import FintechFeatureExtractor, generate_indian_kyc_dataset
+from main import FintechFeatureExtractor, generate_indian_kyc_dataset
 
 
 # -------------------------------------------------------------------------
