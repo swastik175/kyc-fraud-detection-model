@@ -1,0 +1,1 @@
+[![Python application](https://github.com/swastik175/kyc-fraud-detection-model/actions/workflows/python-app.yml/badge.svg)](https://github.com/swastik175/kyc-fraud-detection-model/actions/workflows/python-app.yml)
